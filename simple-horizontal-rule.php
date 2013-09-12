@@ -53,7 +53,7 @@ if ( ! class_exists( 'Simple_Horizontal_Rule' ) ) {
 		 */
 		function add_hr_button( $buttons ) {
 				if ( ! in_array( 'hr', $buttons ) )
-						array_push( $buttons, 'hr' );
+					array_push( $buttons, 'hr' );
 				return $buttons;
 		}
 
