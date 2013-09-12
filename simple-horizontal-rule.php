@@ -26,7 +26,7 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-if ( ! class_exists( 'Simple_Horizontal_Rule' ) ) :
+if ( ! class_exists( 'Simple_Horizontal_Rule' ) ) {
 
 /**
  * Plugin Main Class.
@@ -67,5 +67,5 @@ class Simple_Horizontal_Rule {
 }
 
 $Simple_Horizontal_Rule = new Simple_Horizontal_Rule();
-
-endif;
+	
+}
