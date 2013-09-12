@@ -38,7 +38,7 @@ if ( ! class_exists( 'Simple_Horizontal_Rule' ) ) {
 		 * Initialise
 		 */
 		function Simple_Horizontal_Rule() {
-				add_action( 'init', array( $this , 'simple_hr_filter' ) );
+			add_action( 'init', array( $this , 'simple_hr_filter' ) );
 		}
 
 		/**
@@ -52,9 +52,9 @@ if ( ! class_exists( 'Simple_Horizontal_Rule' ) ) {
 		 * Force add the hr button to the first row
 		 */
 		function add_hr_button( $buttons ) {
-				if ( ! in_array( 'hr', $buttons ) )
-					array_push( $buttons, 'hr' );
-				return $buttons;
+			if ( ! in_array( 'hr', $buttons ) )
+				array_push( $buttons, 'hr' );
+			return $buttons;
 		}
 
 	}
