@@ -39,7 +39,7 @@ class Simple_Horizontal_Rule {
      */
     function Simple_Horizontal_Rule() {
         
-        add_action( 'init', array( &$this , 'simple_hr_filter' ) );
+        add_action( 'init', array( $this , 'simple_hr_filter' ) );
 
     }
 
@@ -48,7 +48,7 @@ class Simple_Horizontal_Rule {
      */
     function simple_hr_filter() {
 
-    	add_filter( 'mce_buttons', array( &$this , 'add_hr_button' ) );
+    	add_filter( 'mce_buttons', array( $this , 'add_hr_button' ) );
  
     }  
 
@@ -67,5 +67,5 @@ class Simple_Horizontal_Rule {
 }
 
 $Simple_Horizontal_Rule = new Simple_Horizontal_Rule();
-	
+
 }
