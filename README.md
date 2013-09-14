@@ -20,7 +20,7 @@ Adds the horizontal rule button to the WordPress editor.
 
 ## Usage ##
 
-Simple install and the button will appear at the end of the first row of buttons in the Visual Editor.
+Simply install and the button will appear at the end of the first row of buttons in the Visual Editor.
 
 ## Changelog ##
 
